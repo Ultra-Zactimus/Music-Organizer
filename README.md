@@ -33,6 +33,8 @@ _Add an artist with Albums to a Database and view other Listed Artists and Album
 * Run "$ `dotnet build`" to build the project.
 * Run "$ `dotnet run`" to open the program inside the `VS Code` Terminal.
 
+`Developer Note` <em>You do not need to type in $ into the terminal. Terminal starts with $ on GitBash and % on Bash.</em>
+
 ## Known Bugs
 
 * No known bugs at this time.
