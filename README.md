@@ -1,6 +1,6 @@
 # _Music Artist Organizer <p><img src="./MusicOrganizer/wwwroot/img/cd-icon.svg" alt="cd icon" width="100"></p>_
 
-<p>
+<p align="right">
   <img src="./MusicOrganizer/wwwroot/img/music-icon.png" alt="Music Symbol Icon" width="150">
 </p>
 
