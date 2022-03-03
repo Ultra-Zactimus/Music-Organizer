@@ -6,11 +6,11 @@
 
 ## Technologies Used
 
-* C#
-* MSTest
-* ASP.NET Core MVC
-* Bootstrap
-* CSS
+* `C#`
+* `MSTest`
+* `ASP.NET Core MVC`
+* `Bootstrap`
+* `CSS`
 
 ## Description
 
@@ -21,13 +21,13 @@ _Add an artist with Albums to a Database and view other Listed Artists and Album
 * Visit https://github.com/Ultra-Zactimus/Music-Organizer
 * Clone this repository to your desktop.
 * Navigate to the Home directory.
-* Open the Index.cshtml file in your browser.
+* Open the `Index.cshtml` file in your browser.
 
 * Clone this repository to your desktop.
 * Navigate to the Car directory in your terminal.
-* Run "$ dotnet restore" to restore the bin and obj folders.
-* Run "$ dotnet build" to build the project.
-* Run "$ dotnet run" to open the program inside the VSCode Terminal.
+* Run "$ `dotnet restore`" to restore the bin and obj folders.
+* Run "$ `dotnet build`" to build the project.
+* Run "$ `dotnet run`" to open the program inside the `VS Code` Terminal.
 
 ## Known Bugs
 
