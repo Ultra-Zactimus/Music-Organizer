@@ -1,5 +1,9 @@
 # _Music Artist Organizer_
 
+<p align="center">
+  <img src="~/img/music-icon.png" alt="Size Limit CLI" width="738">
+</p>
+
 #### By Zachary Green and Eric Crudup
 
 #### _This application lets the user post an artist and have albums under each artist_
