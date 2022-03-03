@@ -31,7 +31,7 @@ namespace MusicOrganizer.Tests
     }
 
 
-     [TestMethod]
+    [TestMethod]
     public void GetId_ReturnsCategoryId_Int()
     {
       //Arrange
@@ -43,6 +43,29 @@ namespace MusicOrganizer.Tests
 
       //Assert
       Assert.AreEqual(1, result);
+    }
+
+    [TestMethod]
+    public void GetAll_ReturnsAllArtistObjects_ArtistList()
+    {
+      Artist newArtist1 = new Artist("Frodo");
+      Artist newArtist2 = new Artist("Bilbo");
+      List<Artist> artists = new List<Artist>{ newArtist1, newArtist2};
+
+      CollectionAssert.AreEqual(artists, Artist.GetAll() );
+    }
+
+    [TestMethod]
+    public void Find_ReturnsCorrectArtist_Artist()
+    {
+      string name1 = "artist1";
+      string name2 = "artist2";
+      Artist newArt1 = new Artist(name1);
+      Artist newArt2 = new Artist(name2);
+
+      Artist result = Artist.Find(2);
+
+      Assert.AreEqual(newArt2, result);
     }
 
   }

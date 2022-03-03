@@ -19,7 +19,25 @@ namespace MusicOrganizer.Models
       Records = new List<Record>{};
     }
 
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
 
+    public static List<Artist> GetAll()
+    {
+      return _instances;
+    }
+
+    public static Artist Find(int searchId)
+    {
+      return _instances[searchId-1];
+    }
+
+    public void AddRecord(Record record)
+    {
+      Records.Add(record);
+    }
 
   }
 }
