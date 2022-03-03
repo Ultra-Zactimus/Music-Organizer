@@ -1,7 +1,7 @@
 # _Music Artist Organizer_
 
-<p align="center">
-  <img src="~/img/music-icon.png" alt="Size Limit CLI" width="738">
+<p>
+  <img src="./MusicOrganizer/wwwroot/img/music-icon.png" alt="Music Symbol Icon" width="738">
 </p>
 
 #### By Zachary Green and Eric Crudup
