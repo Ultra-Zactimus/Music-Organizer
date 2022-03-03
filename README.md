@@ -9,6 +9,8 @@
 * C#
 * MSTest
 * ASP.NET Core MVC
+* Bootstrap
+* CSS
 
 ## Description
 
