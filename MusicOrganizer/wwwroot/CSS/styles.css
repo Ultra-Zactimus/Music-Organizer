@@ -1,0 +1,17 @@
+.test
+{
+  text-align: center;
+  background-color: darkgrey;
+  color: black;
+}
+
+a
+{
+  color: blueviolet
+}
+
+a :hover
+{
+  cursor: pointer;
+  color:aqua;
+}

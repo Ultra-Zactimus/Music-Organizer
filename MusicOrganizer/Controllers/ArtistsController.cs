@@ -1,10 +1,11 @@
 using MusicOrganizer.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System;
 
 namespace MusicOrganizer.Controllers
 {
-  public class ArtistController : Controllers
+  public class ArtistController : Controller
   {
     [HttpGet("/artists")]
     public ActionResult Index()
@@ -26,18 +27,18 @@ namespace MusicOrganizer.Controllers
       return RedirectToAction("Index");
     }
 
-    [HttpeGet("artists/{Id}")]
+    [HttpGet("artists/{Id}")]
     public ActionResult Show(int Id)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
-      Artist selectedArtist = Artist.Find(id);
+      Artist selectedArtist = Artist.Find(Id);
       List<Record> artistRecords = selectedArtist.Records;
       model.Add("artist", selectedArtist);
       model.Add("records", artistRecords);
       return View(model);
     }
 
-    [HttpPost("/artists/{cartistId}/records")]
+    [HttpPost("/artists/{artistId}/records")]
     public ActionResult Create(int artistId, string recordDescription)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
