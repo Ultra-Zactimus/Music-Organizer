@@ -1,4 +1,4 @@
-# _Music Artist Organizer_
+# _Music Artist Organizer <p><img src="./MusicOrganizer/wwwroot/img/cd-icon.svg" alt="cd icon" width="100"></p>_
 
 <p>
   <img src="./MusicOrganizer/wwwroot/img/music-icon.png" alt="Music Symbol Icon" width="150">
