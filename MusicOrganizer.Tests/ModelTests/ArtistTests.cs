@@ -11,7 +11,7 @@ namespace MusicOrganizer.Tests
 
     public void Dispose()
     {
-      // Artist.ClearAll();
+      Artist.ClearAll();
     }
     
     [TestMethod]
@@ -28,6 +28,21 @@ namespace MusicOrganizer.Tests
       Artist newArtist = new Artist(name);
 
       Assert.AreEqual(name, newArtist.Name);
+    }
+
+
+     [TestMethod]
+    public void GetId_ReturnsCategoryId_Int()
+    {
+      //Arrange
+      string name = "Test Artist Name";
+      Artist newArtist = new Artist(name);
+
+      //Act
+      int result = newArtist.Id;
+
+      //Assert
+      Assert.AreEqual(1, result);
     }
 
   }

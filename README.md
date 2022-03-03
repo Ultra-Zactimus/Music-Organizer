@@ -1,20 +1,22 @@
-# _Car Dealership_
+# _Music Artist Organizer_
 
-#### By Zachary Green and Isaac Overstreet
+#### By Zachary Green and Eric Crudup
 
-#### _This application lets the user post a car to sell or get a list of cars for sale_
+#### _This application lets the user post an artist and have albums under each artist_
 
 ## Technologies Used
 
 * C#
+* MSTest
+* ASP.NET Core MVC
 
 ## Description
 
-_Add a car with Make, Model, Miles, Year and Price to a Database and view other Listed Cars for sale._
+_Add an artist with Albums to a Database and view other Listed Artists and Albums._
 
 ## Setup/Installation Requirements
 
-* Visit https://github.com/Ultra-Zactimus/Car-Dealership-With-MVC
+* Visit https://github.com/Ultra-Zactimus/Music-Organizer
 * Clone this repository to your desktop.
 * Navigate to the Home directory.
 * Open the Index.cshtml file in your browser.
@@ -33,4 +35,4 @@ _Add a car with Make, Model, Miles, Year and Price to a Database and view other 
 
 MIT
 
-Copyright (c) 2022 Zachary Green and Isaac Overstreet
+Copyright (c) 2022 Zachary Green and Eric Crudup
