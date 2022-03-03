@@ -43,4 +43,4 @@ _Add an artist with Albums to a Database and view other Listed Artists and Album
 
 MIT
 
-Copyright (c) 2022 Zachary Green and Eric Crudup
+Copyright © 2022 Zachary Green and Eric Crudup
