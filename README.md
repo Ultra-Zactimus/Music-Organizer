@@ -1,7 +1,7 @@
 # _Music Artist Organizer_
 
 <p>
-  <img src="./MusicOrganizer/wwwroot/img/music-icon.png" alt="Music Symbol Icon" width="738">
+  <img src="./MusicOrganizer/wwwroot/img/music-icon.png" alt="Music Symbol Icon" width="150">
 </p>
 
 #### By Zachary Green and Eric Crudup
