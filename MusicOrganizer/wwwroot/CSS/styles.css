@@ -1,13 +1,13 @@
-.test
+body
 {
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(212, 211, 211);
   color: black;
 }
 
 a
 {
-  color: blueviolet
+  color: blueviolet;
 }
 
 a :hover
@@ -15,3 +15,14 @@ a :hover
   cursor: pointer;
   color:aqua;
 }
+
+.artist-color
+{
+  color:darkred;
+}
+
+.record-color
+{
+  color:rgb(52, 29, 97);
+}
+

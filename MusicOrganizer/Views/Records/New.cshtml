@@ -2,14 +2,15 @@
   Layout = "_Layout";
 }
 
-<h1>Add a new record to @Model.Name</h1>
+<h1 class="record-color">Add a new record to @Model.Name</h1>
 
 <form action="/artists/@Model.Id/records" method="post">
   <input id="artistId" name="artistId" type="hidden" value="@Model.Id">
   <br>
-  <label for="recordDescription">Record</label>
+  <label for="recordDescription">Record:</label>
   <br>
   <input id="recordDescription" name="recordDescription" type="text">
   <br>
-  <button type='submit'>Add Record?</button>
+  <br>
+  <button type='submit' class="btn btn-success">Add Record?</button>
 </form>
